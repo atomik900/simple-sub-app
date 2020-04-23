@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    height: 50vh;
+    width: 50vw;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cube{
+    height: 5vh;
+    width: 5vw;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.hit{
+    background-color: green;
+    cursor:not-allowed;
+}
+.miss{
+    background-color: red;
+    cursor: not-allowed;
+}
